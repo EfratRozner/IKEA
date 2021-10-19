@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#root{
+  overflow: inherit,
+}
+
+.customerDetails{
+  display: inline-flex;
+  flex-direction: column;
+  direction: rtl;
+  
+}
+
+.MuiOutlinedInput-multiline{
+  margin-bottom: 20px;
+}
+
+.payment{
+  padding-right: 20%;
+}
+
+.about{
+  direction: rtl;
+  padding: 10%;
+  padding-top: 0;
+}
+
+.about div{
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #CCC;
+  padding: 5%;
+}
+
+.about p{
+  margin: 4%;
+}
+.about h2{
+  font-size: 40px;
+  text-align: center;
+}
+#center{
+text-align: center;
+  padding-right: 10px;
+  font-size: 30px;
+  font-weight: bold;
+
+  
+}
+
+#products{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  color: blue;
+  justify-content: space-between;
+}
+
+.singleProduct{
+  width: 280px;
+  height: 300px;
+  border: #fee300 solid 3px;
+  background-color: #ffffffa9;
+  margin: 2%;
+  
+
+}
+
+
+
+
+
+.singleProduct img{
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+
+#categoryNav{
+  display: inline-block;
+  width: 150px;
+  background-color: #282c3433;
+}
+
+#frame{
+  display: inline-block;
+  width: 75%;
+  margin: auto;
+  vertical-align: top;
+
+  
+}
+
+
+#categoryNav a {
+  text-decoration: none;
+  color:blue;
+  font-size: 20px;
+}
+
+#noDetails{
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+.prodInCart{
+  color: blue;
+  border-top: blue 2px solid;
+  list-style-type: none;
+  width: 50px;
+}

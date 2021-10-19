@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 100px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.newonImg{
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+nav{
+ text-align: center;
+ direction: rtl;
+ background-color: #ffffff;
+ margin-bottom: 0;
+  
+}
+nav li{
+  display: inline-block;
+  margin: 3.5em;
+  margin-bottom: 1em;
+}
+
+nav li a{
+  font-size: 20px;
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.yellow-blue{
+  background-color: #FBD914;
+  padding: 3px 20px 5px 20px;
+  border-radius: 60px;
+  color: #0058AB;
+  margin-left: 20px;
+  margin-bottom: 26px;
+  display: inline-block;
+}
+
+.white-blue{
+  background-color: #55B2BB;
+    padding: 3px 20px 5px 20px;
+    border-radius: 60px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-bottom: 26px;
+    display: inline-block;
+}
+
+body{
+  
+  background-image: url(./img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.payment-form input{
+  background-color: #ffffff00;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
